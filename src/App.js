@@ -1,14 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Content, Footer, Header } from "./func-components";
+
 
 function App() {
-  const divStyle={
-    color:'red',
-    backgroundColor:'powderblue',
-    fontSize:'larger',
-    padding:'3px',
-  }
-  return <div style={divStyle}>Hello React</div>
+  return (
+    [<Header/>,<Content/>,<Footer/>]
+  )
 }
 
 export default App;
