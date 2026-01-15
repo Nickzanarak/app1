@@ -15,17 +15,17 @@ export default function RefArray(){
         table.current.deleteRow(index)
     }
     const onMouseOverRow =(i) => {
-        trcurrent[i].style.backgroundColor = 'yellow';
+        tr.current[i].style.backgroundColor = 'yellow';
     }
     const onMouseOutRow = (i) => {
-        trcurrent[i].style.backgroundColor = 'white';
+        tr.current[i].style.backgroundColor = 'white';
     }
     const tableStyles = {
         margin: 'auto',marginTop:30
     }
 
     return (
-        <table ref={table} border="1" cellPadding={5} style={tableStyle}>
+        <table ref={table} border="1" cellPadding={5} style={tableStyles}>
           <tr>
             <th>Product</th>
             <th>Price</th>
