@@ -5,7 +5,7 @@ export default function Content(){
     let user = React.useContext(userContext)
 
     const ContentStyle = {
-        color : '#ddd',
+        backgroundColor : '#ddd',
         textAlign: 'center',
         margin : 10,
         padding : 10
