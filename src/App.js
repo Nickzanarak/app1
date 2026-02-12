@@ -2,16 +2,12 @@ import React, { useState } from "react";
 import { userContext } from "./context";
 import Header2 from "./context-header2";
 import Content2 from "./context-content2";
+import Router2 from "./router2";
 
 function App() {
-  const [user, setUser] = useState('');
-
   return (
-    <userContext.Provider value={{ user, setUser }}>
-      <Header2 />
-      <Content2 />
-    </userContext.Provider>
-  );
+    <Router2/>
+  )
 }
 
 export default App;
