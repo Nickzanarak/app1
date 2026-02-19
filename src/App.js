@@ -4,10 +4,11 @@ import Header2 from "./context-header2";
 import Content2 from "./context-content2";
 import Router2 from "./router2";
 import Router3 from "./router3";
+import FormText from "./form-text";
 
 function App() {
   return (
-    <Router3/>
+    <FormText/>
   )
 }
 
